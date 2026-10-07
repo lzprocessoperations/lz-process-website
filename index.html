@@ -2,69 +2,276 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>LZ Process & IT Operations</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <link rel="stylesheet" href="style.css">
+
+    <!-- =========================
+         SEO
+    ========================== -->
+
+    <title>
+        Business Systems, Data, Processes & Website Support | LZ Process & IT Operations
+    </title>
+
+    <meta
+        name="description"
+        content="Practical support for business systems, data integrity, process improvement, software testing and professional website setup across the UK and Europe."
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <link
+        rel="canonical"
+        href="https://lzprocessoperations.github.io/lz-process-website/"
+    >
+
+
+    <!-- =========================
+         OPEN GRAPH
+    ========================== -->
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:title"
+        content="LZ Process & IT Operations | Systems, Data, Processes & Websites"
+    >
+
+    <meta
+        property="og:description"
+        content="Practical support across business systems, data integrity, process improvement, software testing and professional website setup."
+    >
+
+    <meta
+        property="og:url"
+        content="https://lzprocessoperations.github.io/lz-process-website/"
+    >
+
+    <meta
+        property="og:image"
+        content="https://lzprocessoperations.github.io/lz-process-website/images/office.webp"
+    >
+
+    <meta
+        property="og:site_name"
+        content="LZ Process & IT Operations"
+    >
+
+
+    <!-- =========================
+         TWITTER
+    ========================== -->
+
+    <meta
+        name="twitter:card"
+        content="summary_large_image"
+    >
+
+    <meta
+        name="twitter:title"
+        content="LZ Process & IT Operations | Systems, Data, Processes & Websites"
+    >
+
+    <meta
+        name="twitter:description"
+        content="Practical support across business systems, data integrity, process improvement, software testing and professional website setup."
+    >
+
+    <meta
+        name="twitter:image"
+        content="https://lzprocessoperations.github.io/lz-process-website/images/office.webp"
+    >
+
+
+    <!-- =========================
+         BROWSER
+    ========================== -->
+
+    <meta
+        name="theme-color"
+        content="#16295d"
+    >
+
+
+    <!-- =========================
+         STRUCTURED DATA
+    ========================== -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "LZ Process & IT Operations",
+        "url": "https://lzprocessoperations.github.io/lz-process-website/",
+        "description": "Practical support across business systems, data integrity, process improvement, software testing and professional website setup.",
+        "founder": {
+            "@type": "Person",
+            "name": "Luca Zannoni"
+        },
+        "areaServed": [
+            {
+                "@type": "Country",
+                "name": "United Kingdom"
+            },
+            {
+                "@type": "Place",
+                "name": "Europe"
+            }
+        ],
+        "email": "mailto:lucazannoni.consulting@yahoo.com",
+        "telephone": "+447940068918",
+        "knowsAbout": [
+            "Business Systems",
+            "Application Support",
+            "Data Integrity",
+            "Process Improvement",
+            "Software Testing",
+            "Website Setup",
+            "CRM Systems",
+            "Digital Operations"
+        ]
+    }
+    </script>
+
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
 </head>
+
 
 <body>
 
-    <!-- NAVIGATION -->
 
-    <header>
+    <!-- =========================
+         HEADER / NAVIGATION
+    ========================== -->
 
-        <nav class="container">
+    <header class="site-header">
 
-            <div class="brand">
+        <nav class="container navigation">
+
+            <a
+                class="brand"
+                href="#top"
+            >
                 LZ Process & IT Operations
-            </div>
+            </a>
 
-            <div class="nav-links">
-                <a href="#data">Data</a>
-                <a href="#services">Services</a>
-                <a href="#experience">Experience</a>
-                <a href="#tools">Tools</a>
-                <a href="#about">Who I Am</a>
-                <a href="#approach">Approach</a>
-                <a href="#contact">Contact</a>
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                type="button"
+                aria-label="Open navigation"
+                aria-expanded="false"
+                aria-controls="navigation"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+
+            <div
+                class="nav-links"
+                id="navigation"
+            >
+
+                <a href="#services">
+                    Services
+                </a>
+
+                <a href="#websites">
+                    Websites
+                </a>
+
+                <a href="#experience">
+                    Experience
+                </a>
+
+                <a href="#tools">
+                    Tools
+                </a>
+
+                <a href="#about">
+                    Who I Am
+                </a>
+
+                <a href="#approach">
+                    Approach
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
             </div>
 
         </nav>
 
 
-        <!-- HERO -->
+        <!-- =========================
+             HERO
+        ========================== -->
 
-        <div class="hero container">
+        <div
+            class="hero container"
+            id="top"
+        >
 
             <div class="hero-text">
 
                 <p class="section-label">
-                    SYSTEMS • DATA • PROCESSES
+                    SYSTEMS • DATA • WEBSITES • PROCESSES
                 </p>
 
                 <h1>
-                    Helping businesses<br>
+                    Helping businesses
                     work smarter.
                 </h1>
 
                 <p class="hero-description">
                     Practical support across business applications,
-                    data integrity, software testing and process improvement.
+                    data integrity, process improvement, software testing
+                    and professional website setup.
                 </p>
+
 
                 <div class="buttons">
 
-                    <a class="primary-button"
-                       href="#services">
+                    <a
+                        class="primary-button"
+                        href="#services"
+                    >
                         View Services
                     </a>
 
-                    <a class="secondary-button"
-                       href="#about">
-                        Who I Am
+                    <a
+                        class="secondary-button"
+                        href="#websites"
+                    >
+                        Website Services
                     </a>
 
                 </div>
@@ -75,8 +282,12 @@
             <div class="hero-image">
 
                 <img
-                    src="images/office.jpg"
-                    alt="Team collaborating around a computer">
+                    src="images/office.webp"
+                    alt="Business team collaborating around a computer"
+                    width="1536"
+                    height="1024"
+                    fetchpriority="high"
+                >
 
             </div>
 
@@ -85,12 +296,15 @@
     </header>
 
 
+
     <main>
 
 
-        <!-- WHY DATA MATTERS -->
+        <!-- =========================
+             BUSINESS OPERATIONS
+        ========================== -->
 
-        <section id="data">
+        <section>
 
             <div class="content-box two-columns">
 
@@ -101,33 +315,32 @@
                     </p>
 
                     <h2>
-                        Good data keeps a business moving.
+                        Better systems. Better business.
                     </h2>
 
                     <p>
-                        In 2026, even a small business depends on data every day:
-                        customer records, orders, billing information, services,
-                        tickets, suppliers and internal workflows.
+                        Even a small business now depends on technology
+                        every day: customer information, orders, websites,
+                        enquiries, billing, tickets and internal workflows.
                     </p>
 
                     <p>
-                        The challenge is not simply collecting information.
-                        It is making sure that the right data moves correctly
-                        between people, processes and systems.
+                        When information is incomplete, systems do not connect
+                        properly or processes are unclear, small issues can
+                        quickly become delays, mistakes and poor customer
+                        experiences.
                     </p>
 
                     <p>
-                        Missing fields, duplicated records, incorrect relationships
-                        or unclear workflows can quickly become delays,
-                        billing problems and poor customer experiences.
+                        I look at how information moves through a business,
+                        where problems occur and what practical changes can
+                        make the operation easier to manage.
                     </p>
 
                     <p>
-                        This is where I can help.
-                        I look at how information enters a process,
-                        where it goes, who uses it and where things can break.
-                        The objective is to make the workflow clearer,
-                        the data more reliable and the operation easier to manage.
+                        The objective is simple: clearer processes,
+                        more reliable information and technology that
+                        supports the business rather than getting in the way.
                     </p>
 
                 </div>
@@ -136,8 +349,12 @@
                 <div class="image-column">
 
                     <img
-                        src="images/data-connectivity.jpg"
-                        alt="Connected data systems and business technology">
+                        src="images/data-connectivity.webp"
+                        alt="Connected business systems and data"
+                        loading="lazy"
+                        width="1536"
+                        height="1024"
+                    >
 
                 </div>
 
@@ -146,7 +363,10 @@
         </section>
 
 
-        <!-- SERVICES -->
+
+        <!-- =========================
+             SERVICES
+        ========================== -->
 
         <section id="services">
 
@@ -156,14 +376,19 @@
                     WHAT I CAN HELP WITH
                 </p>
 
-                <h2>Services</h2>
+                <h2>
+                    Services
+                </h2>
 
 
                 <div class="service-grid">
 
-                    <div class="card">
 
-                        <h3>Application Support</h3>
+                    <article class="card">
+
+                        <h3>
+                            Application Support
+                        </h3>
 
                         <p>
                             Investigating application issues,
@@ -171,44 +396,243 @@
                             systems operate reliably.
                         </p>
 
-                    </div>
+                    </article>
 
 
-                    <div class="card">
+                    <article class="card">
 
-                        <h3>Data Integrity</h3>
-
-                        <p>
-                            Identifying missing, incorrect
-                            or inconsistent data and improving
-                            the quality of business information.
-                        </p>
-
-                    </div>
-
-
-                    <div class="card">
-
-                        <h3>Process Improvement</h3>
+                        <h3>
+                            Data Integrity
+                        </h3>
 
                         <p>
-                            Reviewing workflows to identify
-                            unnecessary steps, operational problems
-                            and opportunities to improve.
+                            Identifying missing, incorrect or inconsistent
+                            information and improving the quality and
+                            reliability of business data.
                         </p>
 
-                    </div>
+                    </article>
 
 
-                    <div class="card">
+                    <article class="card">
 
-                        <h3>Software Testing</h3>
+                        <h3>
+                            Process Improvement
+                        </h3>
+
+                        <p>
+                            Reviewing workflows to identify unnecessary
+                            steps, operational problems and opportunities
+                            to improve how work gets done.
+                        </p>
+
+                    </article>
+
+
+                    <article class="card">
+
+                        <h3>
+                            Software Testing
+                        </h3>
 
                         <p>
                             Testing applications and changes,
-                            documenting issues and verifying
-                            that fixes work correctly.
+                            documenting issues and verifying that
+                            fixes work correctly before release.
                         </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             WEBSITE SERVICES
+        ========================== -->
+
+        <section id="websites">
+
+            <div class="website-section">
+
+                <div class="website-intro">
+
+                    <p class="section-label">
+                        WEBSITE SETUP & DIGITAL PRESENCE
+                    </p>
+
+                    <h2>
+                        A professional website is more than generated code.
+                    </h2>
+
+                    <p class="website-lead">
+                        AI can generate code quickly.
+                        That does not mean a complete business website
+                        appears by magic.
+                    </p>
+
+                    <p>
+                        A professional website still needs planning,
+                        structure, content decisions, responsive design,
+                        testing, image optimisation, SEO preparation,
+                        domain configuration and deployment.
+                    </p>
+
+                    <p>
+                        I use modern tools, including AI, to make the
+                        process faster and more efficient while keeping
+                        the project reviewed, practical and tailored
+                        to the business.
+                    </p>
+
+
+                    <a
+                        class="primary-button"
+                        href="#contact"
+                    >
+                        Discuss a Website
+                    </a>
+
+                </div>
+
+
+                <div class="website-services">
+
+
+                    <div class="website-item">
+
+                        <span class="website-number">
+                            01
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Planning & Structure
+                            </h3>
+
+                            <p>
+                                Organising pages, sections,
+                                navigation and the information
+                                customers need to find.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="website-item">
+
+                        <span class="website-number">
+                            02
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Responsive Design
+                            </h3>
+
+                            <p>
+                                Building layouts that work properly
+                                across desktop, tablet and mobile.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="website-item">
+
+                        <span class="website-number">
+                            03
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Content Setup
+                            </h3>
+
+                            <p>
+                                Structuring business information,
+                                calls to action, images and website copy.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="website-item">
+
+                        <span class="website-number">
+                            04
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Basic SEO
+                            </h3>
+
+                            <p>
+                                Page titles, descriptions,
+                                search-friendly structure and
+                                basic technical preparation.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="website-item">
+
+                        <span class="website-number">
+                            05
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Testing & Optimisation
+                            </h3>
+
+                            <p>
+                                Checking navigation, mobile layouts,
+                                images, performance and user experience.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="website-item">
+
+                        <span class="website-number">
+                            06
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Hosting & Deployment Support
+                            </h3>
+
+                            <p>
+                                Helping prepare the website for
+                                hosting, domains and final publication.
+                            </p>
+
+                        </div>
 
                     </div>
 
@@ -219,7 +643,10 @@
         </section>
 
 
-        <!-- EXPERIENCE -->
+
+        <!-- =========================
+             EXPERIENCE
+        ========================== -->
 
         <section id="experience">
 
@@ -229,8 +656,12 @@
                 <div class="image-column">
 
                     <img
-                        src="images/infrastructure.jpg"
-                        alt="Servers and connected business systems">
+                        src="images/infrastructure.webp"
+                        alt="Technology infrastructure and connected systems"
+                        loading="lazy"
+                        width="1536"
+                        height="1024"
+                    >
 
                 </div>
 
@@ -255,16 +686,23 @@
                     <p>
                         I have worked with systems including Salesforce CPQ,
                         HALO ITSM, NEO and MIDAS, investigating order
-                        and data issues, checking information before it
+                        and data issues, validating information before it
                         reaches downstream teams and coordinating across
                         departments and providers.
                     </p>
 
                     <p>
-                        The transferable skill is not one particular piece
-                        of software. It is understanding how a process works,
-                        identifying where it breaks and helping move it
-                        towards a reliable solution.
+                        My work also includes practical digital projects,
+                        including business website structure,
+                        responsive design, testing, optimisation
+                        and deployment preparation.
+                    </p>
+
+                    <p>
+                        The transferable skill is not one particular
+                        piece of software. It is understanding how
+                        something works, identifying where it breaks
+                        and helping move it towards a reliable solution.
                     </p>
 
                 </div>
@@ -274,7 +712,10 @@
         </section>
 
 
-        <!-- TOOLS -->
+
+        <!-- =========================
+             TOOLS
+        ========================== -->
 
         <section id="tools">
 
@@ -288,22 +729,70 @@
                     Technology and operational tools.
                 </h2>
 
-                <p>
+                <p class="tools-description">
                     Experience working across business applications,
-                    CRM platforms, ticketing systems and operational workflows.
+                    CRM platforms, ticketing systems, data workflows
+                    and website technologies.
                 </p>
 
 
                 <div class="tools-list">
 
-                    <span>Salesforce CPQ</span>
-                    <span>HALO ITSM</span>
-                    <span>NEO</span>
-                    <span>MIDAS</span>
-                    <span>CRM Systems</span>
-                    <span>Ticket Management</span>
-                    <span>Data Validation</span>
-                    <span>Root Cause Analysis</span>
+                    <span>
+                        Salesforce CPQ
+                    </span>
+
+                    <span>
+                        HALO ITSM
+                    </span>
+
+                    <span>
+                        NEO
+                    </span>
+
+                    <span>
+                        MIDAS
+                    </span>
+
+                    <span>
+                        CRM Systems
+                    </span>
+
+                    <span>
+                        Jira
+                    </span>
+
+                    <span>
+                        HubSpot
+                    </span>
+
+                    <span>
+                        Ticket Management
+                    </span>
+
+                    <span>
+                        Data Validation
+                    </span>
+
+                    <span>
+                        Root Cause Analysis
+                    </span>
+
+                    <span>
+                        HTML & CSS
+                    </span>
+
+                    <span>
+                        JavaScript
+                    </span>
+
+                    <span>
+                        GitHub Pages
+                    </span>
+
+                    <span>
+                        Website Testing
+                    </span>
 
                 </div>
 
@@ -312,7 +801,10 @@
         </section>
 
 
-        <!-- WHO I AM -->
+
+        <!-- =========================
+             WHO I AM
+        ========================== -->
 
         <section id="about">
 
@@ -330,29 +822,42 @@
                     </h2>
 
                     <p class="role">
-                        Application Support • Data Integrity •
-                        Process Improvement
+                        Systems • Data Integrity • Process Improvement • Websites
                     </p>
 
                     <p>
                         I work across business applications,
-                        data quality, software testing and
-                        operational processes.
+                        data quality, software testing,
+                        operational processes and practical
+                        digital projects.
                     </p>
 
                     <p>
                         My approach is practical:
-                        understand the problem,
-                        identify the root cause
-                        and help improve the way work gets done.
+                        understand the requirement,
+                        investigate the problem,
+                        identify the root cause and
+                        build a solution that works.
                     </p>
 
 
                     <div class="strengths">
 
-                        <span>Problem solving</span>
-                        <span>Data quality</span>
-                        <span>Process analysis</span>
+                        <span>
+                            Problem solving
+                        </span>
+
+                        <span>
+                            Data quality
+                        </span>
+
+                        <span>
+                            Process analysis
+                        </span>
+
+                        <span>
+                            Digital operations
+                        </span>
 
                     </div>
 
@@ -360,14 +865,27 @@
                     <div class="international-info">
 
                         <p>
-                            <strong>Languages:</strong>
-                            Italian (native), Spanish (C2), English (C2)
+
+                            <strong>
+                                Languages:
+                            </strong>
+
+                            Italian (native),
+                            Spanish (C2),
+                            English (C2)
+
                         </p>
 
+
                         <p>
-                            <strong>Based in London.</strong>
-                            Available for work across the UK,
-                            Italy and Spain.
+
+                            <strong>
+                                Based in London.
+                            </strong>
+
+                            Available for projects across
+                            the UK and Europe.
+
                         </p>
 
                     </div>
@@ -378,8 +896,12 @@
                 <div class="profile-image">
 
                     <img
-                        src="images/luca.jpg"
-                        alt="Luca Zannoni">
+                        src="images/luca.webp"
+                        alt="Luca Zannoni"
+                        loading="lazy"
+                        width="1152"
+                        height="1536"
+                    >
 
                 </div>
 
@@ -388,7 +910,10 @@
         </section>
 
 
-        <!-- APPROACH -->
+
+        <!-- =========================
+             APPROACH
+        ========================== -->
 
         <section id="approach">
 
@@ -405,53 +930,80 @@
 
                 <div class="approach-grid">
 
-                    <div class="approach-card">
 
-                        <h3>1. Understand</h3>
+                    <article class="approach-card">
 
-                        <p>
-                            Understand the system,
-                            the process and the business requirement.
-                        </p>
+                        <span class="approach-number">
+                            1
+                        </span>
 
-                    </div>
-
-
-                    <div class="approach-card">
-
-                        <h3>2. Investigate</h3>
+                        <h3>
+                            Understand
+                        </h3>
 
                         <p>
-                            Follow the data,
-                            reproduce the issue and identify
-                            where the process breaks.
+                            Understand the business requirement,
+                            system, process or digital project.
                         </p>
 
-                    </div>
+                    </article>
 
 
-                    <div class="approach-card">
+                    <article class="approach-card">
 
-                        <h3>3. Resolve</h3>
+                        <span class="approach-number">
+                            2
+                        </span>
+
+                        <h3>
+                            Investigate
+                        </h3>
 
                         <p>
-                            Document the findings clearly
-                            and work towards a practical solution.
+                            Review the information,
+                            reproduce issues and identify
+                            where the process can improve.
                         </p>
 
-                    </div>
+                    </article>
 
 
-                    <div class="approach-card">
+                    <article class="approach-card">
 
-                        <h3>4. Verify</h3>
+                        <span class="approach-number">
+                            3
+                        </span>
+
+                        <h3>
+                            Build & Resolve
+                        </h3>
 
                         <p>
-                            Retest the result and confirm
-                            that the original problem has been resolved.
+                            Implement a practical solution
+                            and document the important
+                            decisions clearly.
                         </p>
 
-                    </div>
+                    </article>
+
+
+                    <article class="approach-card">
+
+                        <span class="approach-number">
+                            4
+                        </span>
+
+                        <h3>
+                            Test & Verify
+                        </h3>
+
+                        <p>
+                            Test the result and confirm
+                            that the original requirement
+                            has been addressed.
+                        </p>
+
+                    </article>
 
                 </div>
 
@@ -460,7 +1012,10 @@
         </section>
 
 
-        <!-- CONTACT -->
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
 
         <section id="contact">
 
@@ -477,53 +1032,79 @@
                         Let's work together.
                     </h2>
 
-                    <p>
-                        Have a project, a process to improve
-                        or a problem to solve?
+                    <p class="contact-intro">
+                        Need a website, help with a business system,
+                        cleaner data or a better process?
                         Feel free to get in touch.
                     </p>
 
 
-                    <p class="contact-details">
+                    <div class="contact-details">
 
-                        <strong>Email:</strong>
-                        lucazannoni.consulting@yahoo.com
 
-                        <br>
+                        <p>
 
-                        <strong>Phone:</strong>
-                        +44 7940 068918
+                            <strong>
+                                Email:
+                            </strong>
 
-                        <br>
+                            <a
+                                href="mailto:lucazannoni.consulting@yahoo.com"
+                            >
+                                lucazannoni.consulting@yahoo.com
+                            </a>
 
-                        <strong>Availability:</strong>
-                        UK • Italy • Spain
+                        </p>
 
-                    </p>
+
+                        <p>
+
+                            <strong>
+                                Phone:
+                            </strong>
+
+                            <a
+                                href="tel:+447940068918"
+                            >
+                                +44 7940 068918
+                            </a>
+
+                        </p>
+
+
+                        <p>
+
+                            <strong>
+                                Availability:
+                            </strong>
+
+                            UK • Europe
+
+                        </p>
+
+
+                    </div>
 
                 </div>
 
 
-                <div class="buttons">
+                <div class="contact-buttons">
 
                     <a
                         class="primary-button"
-                        href="mailto:lucazannoni.consulting@yahoo.com">
-
-                        Email me
-
+                        href="mailto:lucazannoni.consulting@yahoo.com"
+                    >
+                        Email Me
                     </a>
 
                     <a
                         class="secondary-button"
-                        href="tel:+447940068918">
-
-                        Call me
-
+                        href="tel:+447940068918"
+                    >
+                        Call Me
                     </a>
 
                 </div>
-
 
             </div>
 
@@ -533,7 +1114,10 @@
     </main>
 
 
-    <!-- FOOTER -->
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
 
     <footer>
 
@@ -544,12 +1128,23 @@
             </strong>
 
             <span>
-                © 2026 Luca Zannoni
+                © <span id="year">2026</span> Luca Zannoni
             </span>
 
         </div>
 
     </footer>
+
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script
+        src="script.js"
+        defer
+    ></script>
 
 
 </body>
