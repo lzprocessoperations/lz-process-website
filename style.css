@@ -76,7 +76,6 @@ body {
 img {
 
     display: block;
-
     width: 100%;
 
 }
@@ -85,7 +84,6 @@ img {
 a {
 
     color: inherit;
-
     text-decoration: none;
 
 }
@@ -140,7 +138,6 @@ h2,
 h3 {
 
     color: var(--navy);
-
     line-height: 1.15;
 
 }
@@ -168,7 +165,6 @@ h2 {
     );
 
     letter-spacing: -1.2px;
-
     margin-bottom: 26px;
 
 }
@@ -177,7 +173,6 @@ h2 {
 h3 {
 
     font-size: 20px;
-
     margin-bottom: 15px;
 
 }
@@ -195,7 +190,6 @@ p {
     color: var(--primary);
 
     font-size: 13px;
-
     font-weight: 800;
 
     letter-spacing: 2.2px;
@@ -214,7 +208,6 @@ p {
 .contact-buttons {
 
     display: flex;
-
     align-items: center;
 
     gap: 12px;
@@ -230,7 +223,6 @@ p {
     display: inline-flex;
 
     align-items: center;
-
     justify-content: center;
 
     min-height: 52px;
@@ -240,7 +232,6 @@ p {
     border-radius: 8px;
 
     font-size: 16px;
-
     font-weight: 700;
 
     transition:
@@ -254,7 +245,6 @@ p {
 .primary-button {
 
     background: var(--primary);
-
     color: var(--white);
 
     border: 1px solid var(--primary);
@@ -265,7 +255,6 @@ p {
 .primary-button:hover {
 
     background: var(--primary-dark);
-
     border-color: var(--primary-dark);
 
     transform: translateY(-2px);
@@ -276,7 +265,6 @@ p {
 .secondary-button {
 
     background: var(--white);
-
     color: var(--primary-dark);
 
     border: 1px solid #b7cdfd;
@@ -322,7 +310,6 @@ p {
     display: flex;
 
     align-items: center;
-
     justify-content: space-between;
 
     gap: 30px;
@@ -335,7 +322,6 @@ p {
     color: var(--navy);
 
     font-size: 19px;
-
     font-weight: 800;
 
     white-space: nowrap;
@@ -359,7 +345,6 @@ p {
     color: #173a8d;
 
     font-size: 15px;
-
     font-weight: 500;
 
     transition:
@@ -380,7 +365,6 @@ p {
     display: none;
 
     width: 46px;
-
     height: 46px;
 
     border: 1px solid var(--border);
@@ -392,7 +376,6 @@ p {
     cursor: pointer;
 
     align-items: center;
-
     justify-content: center;
 
     flex-direction: column;
@@ -407,7 +390,6 @@ p {
     display: block;
 
     width: 22px;
-
     height: 2px;
 
     background: var(--navy);
@@ -463,7 +445,6 @@ p {
     gap: 70px;
 
     padding-top: 70px;
-
     padding-bottom: 90px;
 
 }
@@ -696,7 +677,6 @@ p {
     color: var(--navy);
 
     font-size: 20px;
-
     font-weight: 700;
 
 }
@@ -736,7 +716,6 @@ p {
     color: var(--primary);
 
     font-size: 12px;
-
     font-weight: 800;
 
     letter-spacing: 1.5px;
@@ -812,7 +791,6 @@ p {
     color: var(--primary-dark);
 
     font-size: 14px;
-
     font-weight: 700;
 
 }
@@ -913,11 +891,9 @@ p {
     display: flex;
 
     align-items: center;
-
     justify-content: center;
 
     width: 38px;
-
     height: 38px;
 
     margin-bottom: 20px;
@@ -929,7 +905,6 @@ p {
     color: var(--white);
 
     font-size: 15px;
-
     font-weight: 800;
 
 }
@@ -1020,7 +995,6 @@ footer {
     display: flex;
 
     align-items: center;
-
     justify-content: space-between;
 
     gap: 30px;
@@ -1108,11 +1082,6 @@ footer {
 
     }
 
-
-    /*
-       Reduce the empty space before Services
-       on mobile.
-    */
 
     #services {
 
@@ -1209,7 +1178,6 @@ footer {
         top: 67px;
 
         left: 0;
-
         right: 0;
 
         display: none;
@@ -1274,7 +1242,6 @@ footer {
         gap: 42px;
 
         padding-top: 55px;
-
         padding-bottom: 65px;
 
     }
